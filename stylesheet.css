@@ -1,0 +1,61 @@
+
+	/*.jumbotron.col-md-2 {
+		background-color: black;
+		display: flex;
+		margin: 2px 2px;
+		height: 160px;
+		justify-content: center;
+	}*/
+	h2 {
+		color: black;
+		font-size: 34px;
+		margin-top: 40px;
+	}
+	body {
+		text-align: center;
+		background-color: white;
+	}
+	table {
+		margin-left: auto;
+		margin-right: auto;
+		border: 5px;
+	}
+	td {
+	  height: 175px;
+	  width: 175px;
+	  text-align: center;
+	  font-size: 120px;
+	  border: 2px solid #cccccc;
+	}
+	#players {
+	  margin-left:auto; 
+	  margin-right:auto;
+	  padding: 20px 10px 30px 10px;
+	  width: 511px; 
+	  text-align: center;
+	}
+	#players > div {
+	  display: inline-block;
+	  padding-right: 25px;
+	  color: #cccccc;
+	  -webkit-transition-duration: 200ms;
+	}
+	.button {
+	  float: right;
+	}
+	.current-player {
+	  color: black !important;
+	  -webkit-transform: scale(1.5);
+	}
+	tr > td {
+		color: white;
+		background-color: rgba(39, 143, 194, 0.9);
+	}
+	
+	/*tr > td {
+		background-color: rgba(5, 100, 100, .8);
+		height: 160px;
+		width: 170px;
+		margin: 10px;
+		border: 2px;
+	}*/
