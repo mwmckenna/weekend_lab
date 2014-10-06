@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+		<!-- <link rel="stylesheet" type = "text/css" href="stylesheet.css"> -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe</title>
+
+</head>
+
+<body>
+<div class="container">
+	<div class = "row-fluid title">
+	<header>
+		<h2>Tic Tac Toe</h2>
+	</header>
+	<div id="players">
+  		<div id="X" class="">Player X</div>
+  		<div id="O" class="">Player O</div>
+ 		 <input type="button" id = "resetButton" onclick='location.reload();' class="btn btn-default" value="Reset">
+		</div> 
+		
+<table cellpadding="0" cellspacing="0" class="game-board">
+	<tr id="row1">
+    	<td class = "tile" id="1"></td>
+        <td class = "tile" id="2"></td>
+        <td class = "tile" id="3"></td>
+    </tr>
+    <tr id="row2">
+    	<td class = "tile" id="4"></td>
+        <td class = "tile" id="5"></td>
+        <td class = "tile" id="6"></td>
+    </tr>
+    <tr id="row3">
+    	<td class = "tile" id="7"></td>
+        <td class = "tile" id="8"></td>
+        <td class = "tile" id="9"></td>
+    </tr>
+</table>
+
+</body>
+
+<script type="text/javascript" src="tic_tac_toe.js"></script>
+</html>
+
